@@ -34,10 +34,10 @@ nav {
   flex-wrap: nowrap;
   gap: 20px;
   overflow: auto;
+  padding: 30px;
 }
 
 .card-boxes {
-  width: 175px;
   font-size: 12px;
 
   .card--image {
@@ -49,6 +49,30 @@ nav {
     align-items: center;
     .card--star {
       height: 14px;
+    }
+  }
+}
+
+.cats-list {
+  padding: 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  overflow: auto;
+  background-color: pink;
+
+  .cat-section {
+    .cat-image {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    }
+
+    .cat-details {
+      font-size: 14px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
     }
   }
 }
